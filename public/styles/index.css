@@ -1,0 +1,92 @@
+* {
+  
+  margin: 0;
+  padding: 0;
+  
+}
+.body {
+  background-color: rgb(240, 233, 233);
+}
+section {
+  width: 80%;
+  margin: auto;
+  margin-top: 5%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto;
+  
+}
+.cards {
+
+  width: 200px;
+  padding: 20px;
+  margin: 10px;
+  border: 1px solid rgb(245, 208, 208);
+  border-radius: 5px ;
+  background-color: white;
+ 
+}
+.cards:hover {
+  box-shadow: 0 10px 10px 10px rbga(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+.image_box img {
+  width: 180px;
+  height: 200px;
+}
+
+.image_box img {
+  width: 200px;
+  height: 200px;
+}
+.details p:nth-child(1) {
+  font-weight: bold;
+}
+.details p:nth-child(2) {
+  color: grey;
+  font-size: 0.8rem;
+}
+.details p:nth-child(3) {
+  font-weight: bolx;
+  color: grey;
+}
+.details button {
+  padding: 5px 10px;
+  border: none;
+  font-weight: bold;
+  background-color: skyblue;
+  outline: none;
+}
+.details {
+  display: flex;
+  justify-content: space-between
+  
+}
+.details p {
+margin: 5px 20px;
+align-items: center;
+}
+button {
+  padding: 5px 10px;
+  border: none;
+  font-weight: bold;
+  background-color: skyblue;
+  outline: none;
+ padding: 5px 10px;
+ border-radius:  4px;
+}
+.add {
+  display: flex;
+  justify-content: space-between;
+}
+.add button {
+  padding: 5px 10px;
+  cursor: pointer;
+  margin-left: 3px;
+}
+.add {
+  margin-top: 10px;
+}
+.add .change_amount button{
+   background-color: rgb(188, 209, 228);
+}
